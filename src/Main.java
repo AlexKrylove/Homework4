@@ -1,40 +1,32 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 19;
+        int age = 5; // Task 4
         if (age >= 18) {
             System.out.println("Поздравляю ты уже большой!");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Ты ещё слишком мал!");
         }
 
-        System.out.println("Task2");
-        int age1 = 7;
-        if (age1 >= 7) {
-            System.out.println("Ребенок ходит в школу если ему " + age1 + " лет и больше");
-        }
-        int age2 = 18;
-        if (age2 >= 18) {
-            System.out.println("Человек уже закончил школу и может отправляться в университет, если его возраст " + age2 + " лет и больше");
-        }
-        int age3 = 24;
-        if (age3 >= 24) {
-            System.out.println("человек окончил университет и ему пора искать первую работу, если ему " + age3 + " года и больше");
+        System.out.println("Task2"); // task 5
+        int agePerson = 24;
+        if (agePerson >= 7 && agePerson < 18) {
+            System.out.println("Ребенок ходит в школу если ему " + agePerson + " лет и больше");
+        } if (agePerson >= 18 && agePerson < 24) {
+            System.out.println("Человек уже закончил школу и может отправляться в университет, если его возраст " + agePerson + " лет и больше");
+        } else {
+            System.out.println("Человек окончил университет и ему пора искать первую работу, если ему " + agePerson + " года и больше");
         }
 
-        System.out.println("Task3");
-        int capacityWagon = 11;
+        System.out.println("Task3"); // task 6
+        int capacityWagon = 123;
         if (capacityWagon > 60 && capacityWagon <= 102) {
             System.out.println("Придется постоять");
         }
         if (capacityWagon < 60) {
             System.out.println("Тебе повезло, в вагоне есть где присесть");
-        }
-        if (capacityWagon >102) {
+        } else {
             System.out.println("Мест нету, иди в другой вагон");
         }
-
-
 
     }
 }
