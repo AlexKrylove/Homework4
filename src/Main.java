@@ -22,6 +22,19 @@ public class Main {
             System.out.println("человек окончил университет и ему пора искать первую работу, если ему " + age3 + " года и больше");
         }
 
+        System.out.println("Task3");
+        int capacityWagon = 11;
+        if (capacityWagon > 60 && capacityWagon <= 102) {
+            System.out.println("Придется постоять");
+        }
+        if (capacityWagon < 60) {
+            System.out.println("Тебе повезло, в вагоне есть где присесть");
+        }
+        if (capacityWagon >102) {
+            System.out.println("Мест нету, иди в другой вагон");
+        }
+
+
 
     }
 }
