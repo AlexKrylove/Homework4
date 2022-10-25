@@ -39,6 +39,16 @@ public class Main {
         } else if (childAge >= 24) {
             System.out.println("Человеку " + childAge + " и ему пора на работу");
         }
-
+        System.out.println("Task8");
+        int one = -1452;
+        int two = 235235;
+        int three = 54641;
+        if (three > two && three > one) {
+            System.out.println("Число " + three + " максимальное из представленных");
+        }else if (two > three && two > one) {
+            System.out.println("Число " + two + " максимальное из представленных");
+        }else {
+            System.out.println("Число " + one + " максимальное из представленных");
+        }
     }
 }
