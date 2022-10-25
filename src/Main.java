@@ -28,5 +28,17 @@ public class Main {
             System.out.println("Мест нету, иди в другой вагон");
         }
 
+        System.out.println("Task7");
+        int childAge =35;
+        if (childAge >= 2 && childAge <=6) {
+            System.out.println("Человеку " + childAge + " и ему в детский саду");
+        } else if (childAge >= 7 && childAge <=18) {
+            System.out.println("Человеку " + childAge + " и ему в школу");
+        } else if (childAge >= 18 && childAge <= 24) {
+            System.out.println("Человеку " + childAge + " и ему пора в Универ");
+        } else if (childAge >= 24) {
+            System.out.println("Человеку " + childAge + " и ему пора на работу");
+        }
+
     }
 }
